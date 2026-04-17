@@ -1,4 +1,57 @@
-.App {
-  font-family: sans-serif;
+/* Reset básico */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Container principal */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal */
+h1 {
+  color: #333;
   text-align: center;
+}
+
+/* Nome */
+p {
+  text-align: center;
+  color: #666;
+}
+
+/* Títulos das seções */
+h2 {
+  margin-top: 30px;
+  color: #444;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Projetos */
+.projeto {
+  margin-top: 20px;
+  padding: 15px;
+  border-left: 4px solid #007bff;
+  background: #f9f9f9;
+  border-radius: 5px;
+}
+
+/* Título do projeto */
+.projeto h3 {
+  margin: 0;
+  color: #007bff;
+}
+
+/* Texto do projeto */
+.projeto p {
+  text-align: left;
+  margin-top: 5px;
 }
